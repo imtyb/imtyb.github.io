@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Linux目录说明</title>
+    <link href="/posts/b172e208/"/>
+    <url>/posts/b172e208/</url>
+    
+    <content type="html"><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/imtyb/static@wp/linux_dir.jpg"></p><p><strong>Linux一般相应的文件都会会放在相应的目录下，这样更有利于文件的查找。</strong></p><ul><li><code>/home</code> 用户主目录的基点，比如用户<code>user</code>的主目录就是<code>/home/user</code>，可以用<code>~user</code>表示</li><li><code>/root</code> 系统管理员的主目录</li><li><code>/bin</code> 二进制可执行命令</li><li><code>/dev</code> 设备特殊文件</li><li><code>/etc</code> 系统管理和配置文件</li><li><code>/etc/rc.d</code> 启动的配置文件和脚本</li><li><code>/lib</code> 标准程序设计库，又叫动态链接共享库，作用类似windows里的.dll文件</li><li><code>/sbin</code> 超级管理命令，这里存放的是系统管理员使用的管理程序</li><li><code>/tmp</code> 公共的临时文件存储点</li><li><code>/mnt</code> 系统提供这个目录是让用户临时挂载其他的文件系统</li><li><code>/lost+found</code>这个目录平时是空的，系统非正常关机而留下“无家可归”的文件（windows下叫什么.chk）就在这里</li><li><code>/proc</code> 虚拟的目录，是系统内存的映射。可直接访问这个目录来获取系统信息。</li><li><code>/var</code> 某些大文件的溢出区，比方说各种服务的日志文件</li><li><code>/usr</code> 最庞大的目录，要用到的应用程序和文件几乎都在这个目录</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>Linux</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Linux</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Maven引用本地jar</title>
     <link href="/posts/cb4606ac/"/>
     <url>/posts/cb4606ac/</url>

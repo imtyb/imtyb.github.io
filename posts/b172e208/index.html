@@ -20,9 +20,25 @@
   <meta name="author" content="彪大大">
   <meta name="keywords" content="Java; 笔记; 经验; 开发;">
   
-  <title>分类 - Java栈</title>
+  <title>Linux目录说明 - Java栈</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css" />
+  <link  rel="stylesheet" href="/lib/hint/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10.4.0/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  
 
 
 
@@ -50,7 +66,7 @@
 
 
 <body>
-  <header style="height: 60vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -149,9 +165,36 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="分类">
+            <span class="h2" id="subtitle" title="Linux目录说明">
               
             </span>
+
+            
+              <div class="mt-3">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-author" aria-hidden="true"></i>
+      彪大大
+    </span>
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2021-03-09 13:43" pubdate>
+        2021-03-09
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+
+  
+
+  
+  
+</div>
 
             
           </div>
@@ -164,119 +207,106 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div class="py-5" id="board"
-          >
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">Linux目录说明</h1>
+            
+            <div class="markdown-body">
+              <p><img src="https://cdn.jsdelivr.net/gh/imtyb/static@wp/linux_dir.jpg" srcset="/img/loading.gif"></p>
+<p><strong>Linux一般相应的文件都会会放在相应的目录下，这样更有利于文件的查找。</strong></p>
+<ul>
+<li><code>/home</code> 用户主目录的基点，比如用户<code>user</code>的主目录就是<code>/home/user</code>，可以用<code>~user</code>表示</li>
+<li><code>/root</code> 系统管理员的主目录</li>
+<li><code>/bin</code> 二进制可执行命令</li>
+<li><code>/dev</code> 设备特殊文件</li>
+<li><code>/etc</code> 系统管理和配置文件</li>
+<li><code>/etc/rc.d</code> 启动的配置文件和脚本</li>
+<li><code>/lib</code> 标准程序设计库，又叫动态链接共享库，作用类似windows里的.dll文件</li>
+<li><code>/sbin</code> 超级管理命令，这里存放的是系统管理员使用的管理程序</li>
+<li><code>/tmp</code> 公共的临时文件存储点</li>
+<li><code>/mnt</code> 系统提供这个目录是让用户临时挂载其他的文件系统</li>
+<li><code>/lost+found</code>这个目录平时是空的，系统非正常关机而留下“无家可归”的文件（windows下叫什么.chk）就在这里</li>
+<li><code>/proc</code> 虚拟的目录，是系统内存的映射。可直接访问这个目录来获取系统信息。</li>
+<li><code>/var</code> 某些大文件的溢出区，比方说各种服务的日志文件</li>
+<li><code>/usr</code> 最庞大的目录，要用到的应用程序和文件几乎都在这个目录</li>
+</ul>
 
-
-
-
-
-
-<div class="category-list">
-  
-  
-  
-  
-    
-    
-    <div class="category row">
-      <a
-        class="category-item collapsed list-group-item category-item-action col-10 col-md-11"
-        id="heading-ckm1lmpp5000230ux24tgg5me" role="tab" data-toggle="collapse" href="#collapse-ckm1lmpp5000230ux24tgg5me"
-        aria-expanded="false"
-      >
-        IDE
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      <a href="/categories/IDE/" class="category-count col-2 col-md-1">
-        <i class="iconfont icon-articles"></i>
-        <span>3</span>
-      </a>
-      <div class="category-collapse">
-        
-          
-  <div id="collapse-ckm1lmpp5000230ux24tgg5me" class="collapse in" role="tabpanel"
-       aria-labelledby="heading-ckm1lmpp5000230ux24tgg5me">
-    
-    
-    
-      
-      
-        <a href="/posts/cb4606ac/" class="list-group-item list-group-item-action">
-          <span class="category-post">Maven引用本地jar</span>
-        </a>
-      
-    
-      
-      
-        <a href="/posts/308e0eda/" class="list-group-item list-group-item-action">
-          <span class="category-post">Maven跳过单元测试</span>
-        </a>
-      
-    
-      
-      
-        <a href="/posts/49b15ec3/" class="list-group-item list-group-item-action">
-          <span class="category-post">Idea加快Maven构建速度</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
-  
-    
-    
-    <div class="category row">
-      <a
-        class="category-item collapsed list-group-item category-item-action col-10 col-md-11"
-        id="heading-ckm1lmppd000a30uxf5g636f7" role="tab" data-toggle="collapse" href="#collapse-ckm1lmppd000a30uxf5g636f7"
-        aria-expanded="false"
-      >
-        Linux
-        <i class="iconfont icon-arrowright"></i>
-      </a>
-      <a href="/categories/Linux/" class="category-count col-2 col-md-1">
-        <i class="iconfont icon-articles"></i>
-        <span>1</span>
-      </a>
-      <div class="category-collapse">
-        
-          
-  <div id="collapse-ckm1lmppd000a30uxf5g636f7" class="collapse in" role="tabpanel"
-       aria-labelledby="heading-ckm1lmppd000a30uxf5g636f7">
-    
-    
-    
-      
-      
-        <a href="/posts/b172e208/" class="list-group-item list-group-item-action">
-          <span class="category-post">Linux目录说明</span>
-        </a>
-      
-    
-  </div>
-
-        
-      </div>
-    </div>
-  
-</div>
-
-              </div>
             </div>
-          </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/Linux/">Linux</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/Linux/">Linux</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/posts/cb4606ac/">
+                        <span class="hidden-mobile">Maven引用本地jar</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
 
     
@@ -362,9 +392,15 @@
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/tocbot@4.12.0/dist/tocbot.min.js" ></script>
 
 
 
+  <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4.3.0/anchor.min.js" ></script>
 
 
 
