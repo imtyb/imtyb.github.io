@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Idea生成JavaDoc</title>
+    <link href="/posts/d1bf7b84/"/>
+    <url>/posts/d1bf7b84/</url>
+    
+    <content type="html"><![CDATA[<h3 id="1-在工具栏中找到tool-gt-gt-Generate-JAVADoc"><a href="#1-在工具栏中找到tool-gt-gt-Generate-JAVADoc" class="headerlink" title="1. 在工具栏中找到tool &gt;&gt; Generate JAVADoc..."></a>1. 在工具栏中找到<code>tool &gt;&gt; Generate JAVADoc...</code></h3><p><img src="https://cdn.jsdelivr.net/gh/imtyb/cdn@_/article/idea_generate_javadoc/1.png"></p><h3 id="2-然后弹出配置窗口"><a href="#2-然后弹出配置窗口" class="headerlink" title="2. 然后弹出配置窗口"></a>2. 然后弹出配置窗口</h3><p><img src="https://cdn.jsdelivr.net/gh/imtyb/cdn@_/article/idea_generate_javadoc/2.png"></p><p><strong>参数说明</strong></p><ol><li><p><code>Whole project</code>&gt;&gt;整个项目都生成</p></li><li><p><code>Custom scope</code>&gt;&gt;自定义范围，如下：</p><ul><li><code>project files</code>项目文件，</li><li><code>project production files</code>项目产品文件，</li><li><code>project test files</code>项目的测试文件，</li><li><code>&lt;unknown scope&gt;</code>未知范围，</li><li><code>class hierarchy</code>类层<br><img src="https://cdn.jsdelivr.net/gh/imtyb/cdn@_/article/idea_generate_javadoc/3.png"></li></ul></li><li><p><code>include test source</code>包含测试目录</p></li><li><p><code>include JDK and ...</code>包含jdk和其他的第三方jar</p></li><li><p><code>link to JDK documentation...</code>链接到JDK api</p></li><li><p><code>output directy</code>生成的文档存放的位置</p></li><li><p><code>private</code>、<code>package</code>、<code>protected</code>、<code>public</code> 生成文档的级别（类和方法）</p></li><li><p>右边的<code>Generate...</code>是选择生成的文档包含的内容，层级树、导航、索引..</p></li><li><p>再右边是生成的文档包含的内容信息，作者版本等信息</p></li><li><p><code>Locale</code>语言类型<code>zh-CN</code></p></li><li><p><code>Other command line arguments</code>其他参数</p></li><li><p><code>Maximum heep...</code>最大堆栈</p></li></ol><p><strong>如果你的项目是UTF-8的编码，那么就需要在<code>Other command line arguments</code>中输入</strong></p><div class="code-wrapper"><pre><code class="hljs sh">-encoding UTF-8 -charset UTF-8</code></pre></div><p>不然的话会报 错误: 编码GBK的不可映射字符</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>IDE</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Idea</tag>
+      
+      <tag>JavaDoc</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Linux目录说明</title>
     <link href="/posts/b172e208/"/>
     <url>/posts/b172e208/</url>
